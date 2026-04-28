@@ -78,3 +78,8 @@ python generate_graphs.py
 
 ## 📊 Results
 The **Attention-Based Fusion Model** successfully outperformed all single-modality baselines (Vision-only, Speech-only, Text-only). By dynamically weighing the importance of acoustic and visual cues based on semantic text, the system achieved robust Accuracy and F1-Scores on the multi-class MELD dataset.
+
+output screen shot
+
+<img width="1788" height="1051" alt="image" src="https://github.com/user-attachments/assets/551731a5-c458-4eed-b3de-76f2d0637a5d" />
+
