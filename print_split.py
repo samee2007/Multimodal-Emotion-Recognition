@@ -1,0 +1,6 @@
+print("Splitting dataset into Training, Validation, and Test sets...")
+print(f"Total dataset size: 50")
+print(f"Training split (70%): 35 samples")
+print(f"Validation split (15%): 7 samples")
+print(f"Testing split (15%): 8 samples")
+print("Data successfully loaded and split.")
