@@ -5,10 +5,6 @@ Human emotions are expressed through multiple signals simultaneously, such as fa
 
 This project implements a robust **Multi-Modal Emotion Recognition System** using Deep Learning. It integrates visual, acoustic, and textual information extracted from the **MELD (Multimodal EmotionLines Dataset)** to classify 7 distinct human emotions. By evaluating various fusion strategies, this project proves that combining multiple modalities significantly improves classification performance.
 
-## 👥 Authors
-*   **SAMEEKSHA A**
-*   **MADHUBALA G S**
-*   **MARY MACKLIN G**
 
 ## 🚀 Key Features & Architecture
 The system utilizes state-of-the-art Deep Learning models to extract features from three isolated modalities before fusing them together:
@@ -19,17 +15,6 @@ The system utilizes state-of-the-art Deep Learning models to extract features fr
     *   *Early Fusion* (Concatenation)
     *   *Late Fusion* (Weighted Logit Averaging)
     *   *Attention-Based Fusion* (Cross-attention using Text as Queries and Audio/Video as Keys/Values)
-
-## 🛠️ Installation & Setup
-
-### 1. Prerequisites
-Ensure you have Python 3.10+ and Anaconda/Miniconda installed on your system. 
-
-### 2. Install Dependencies
-Open your terminal (Anaconda Prompt) and install the required machine learning and processing libraries:
-```bash
-pip install opencv-python datasets scipy librosa transformers torch torchvision scikit-learn matplotlib seaborn tqdm
-```
 
 ## 💻 Usage Instructions
 
